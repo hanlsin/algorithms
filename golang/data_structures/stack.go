@@ -1,5 +1,9 @@
 package data_structures
 
+/*
+https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+ */
+
 type Stack interface {
 	Push(interface{})
 	Pop() interface{}
