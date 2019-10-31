@@ -69,3 +69,20 @@ The result is
 Because, after the largest number `5`, two `4` numbers are the next largest. So, the 3rd number would be one of this `4` numbers.
 
 **Solution** is under the "kth_number" directory.
+
+## Make a category tree
+A category tree is a representation of a set of categories and their parent-child relationships. Each category has a unique name (no two categories have the same name).
+
+1. A category can have a parent category.
+2. Categories without a parent category are called root categories.
+
+Example: the category "A" has the categories "B" and "C", then "C" has "D", "E" and "F"...
+
+1. To add a category to a category tree, the name and the parent of the category should be provided. 
+2. When adding a root category, a null value should be provided as the parent.
+3. A call to getChildren should return the direct children of the specified category in any order.
+4. InvalidArgumentException should be thrown when adding a category that has already been added anywhere in the CategoryTree or if a parent is specified but does not exist.
+
+Please write your solution (program to represent an abstract category tree) in pure Golang, JavaScript, PHP, C or C++ and provide examples of using it.
+
+**Solution** is under the "category_tree" directory.
